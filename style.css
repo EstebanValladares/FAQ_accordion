@@ -1,0 +1,49 @@
+body {
+    color: rgb(43, 14, 47);
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./images/background-pattern-desktop.svg') no-repeat center center fixed;
+    background-size: cover;
+    & section {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 30%;
+        & h1 {
+            color: #333;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            & i{
+                color: rgb(176, 43, 241);
+                margin-right: 10px;
+            }
+        }
+        & article {
+            margin-top: 20px;
+            & p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.buttons {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgb(176, 43, 241);
+    padding: 3px 5px;
+    border-radius: 50%; 
+    display: inline-block;
+}
+.texto-container{
+    color: rgb(207, 197, 207);
+}
+
+
